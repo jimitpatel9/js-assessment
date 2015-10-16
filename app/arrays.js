@@ -3,7 +3,8 @@ exports = (typeof window === 'undefined') ? global : window;
 exports.arraysAnswers = {
 
   indexOf : function(arr, item) {
-     return arr.indexOf(item);
+    var result =  arr.indexOf(item);
+    return result;
   },
 
   sum : function(arr) {
